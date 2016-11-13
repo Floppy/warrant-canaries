@@ -1,4 +1,7 @@
 # warrant-canaries
+
+[![Build Status](https://travis-ci.org/Floppy/warrant-canaries.svg?branch=master)](https://travis-ci.org/Floppy/warrant-canaries)
+
 CI tests for monitoring warrant canaries.
 
 Tests are implemented in cucumber. See features/* for the tests themselves.
