@@ -1,9 +1,9 @@
 Feature: Andrews & Arnold
 
-  Scenario: Warrant Canary
-    When I visit "http://aa.net.uk/kb-broadband-unfiltered.html"
-    Then I should see "We do not have any black boxes designed to filter or monitor traffic"
-    
-  Scenario: Data Retention
-    When I visit "http://aa.net.uk/kb-other-data-retention.html"
-    Then I should see "we have not been subject to a retention notice"
+  Scenario: Warrant Canary (probably ineffective)
+    When I visit "https://aa.net.uk/canary.html"
+    Then I should see "As of the 13th December 2017"
+    And I should see "never had a data retention notice"
+    And I should see "never had any interception capability notice"
+    And I should see 'have no "black boxes" snooping generally'
+    And I should see "have had no contact from the Home Office, or any other government agency"
